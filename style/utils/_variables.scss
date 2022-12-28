@@ -1,0 +1,37 @@
+
+// color
+$policyColor : brown;
+$containerBordeColor : #0199ff;
+
+// general content
+$url : url("../img/beautiful-natural-environment-digital-painting.jpg");
+$headHeight : 200px;
+$alignCenter : center;
+$bcHeader : rgba(255, 255, 255, 0.5);
+$textDecoration : underline overline;
+$dropShadow : drop-shadow(-1px 0px 6px #102ab1);
+
+// menu variables
+$menuCenter : 330px;
+$menuWidth : 600px;
+$menuDisplaying : flex;
+$menuPadding : 0;
+$menuBlocking : block;
+$menuMinWidth : 120px;
+$menuMargin : 0.5rem;
+$menuDecoration : none;
+$menuBorder : 1px solid $policyColor;
+$borderRadius : 4px;
+$menuTransition : all 1s;
+
+//fieldset variables
+$fieldBorder : ridge;
+$fieldDisplay: inline-flex;
+$fieldWidth: 250px;
+
+// container div variables
+$containerHeight : 100px;
+
+
+//footer variables
+$footerBottom : 0px;

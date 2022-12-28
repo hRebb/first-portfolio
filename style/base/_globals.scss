@@ -1,0 +1,14 @@
+@use '../utils';
+
+body{
+    background-image: utils.$url;
+    color: utils.$policyColor;
+}
+
+.link{
+    text-align: utils.$alignCenter;
+}
+
+a{
+    color: utils.$policyColor;
+}

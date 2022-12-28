@@ -1,0 +1,30 @@
+@use '../utils';
+
+// all the first text box in index.html
+@function invert($color, $amount: 100%) {
+    $inverse: change-color($color, $hue: hue($color) + 45);
+    @return mix($inverse, $color, $amount);
+}
+
+// here the section code
+.container{
+    text-align: utils.$alignCenter;
+    height: utils.$containerHeight;
+    border-radius: 33% / 50%;
+
+    &:hover{
+        $hoverColor : honeydew ;
+        background-color: invert($hoverColor, 45%);
+        text-shadow: 2px 2px 5px red;
+        height: 86px;
+        transform: scale3d(1.5, 1.5, 1.5);
+        transition: transform 250ms ease-in-out;
+    }
+}
+
+//the fieldset code
+.field, .subfield{
+    border: 1px utils.$fieldBorder utils.$policyColor;
+    display: utils.$fieldDisplay;
+    width : -webkit-fill-available;
+}

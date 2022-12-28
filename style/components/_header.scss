@@ -1,0 +1,14 @@
+@use '../utils';
+
+// here the header code
+header{
+    color: utils.$policyColor;
+    background-color: utils.$bcHeader;
+    height: utils.$headHeight;
+    text-decoration: utils.$textDecoration;
+    @include utils.headStyle;
+}
+
+h1{
+    padding-top: 25px;
+}

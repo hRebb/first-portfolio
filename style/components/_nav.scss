@@ -1,0 +1,18 @@
+@use '../utils';
+
+// here the nav code
+.menu{
+    @include utils.menuStyle;
+}
+
+.active{
+    @include utils.activeStyle;
+}
+
+// for responsive
+@media screen and (max-width : 560px) {
+    .menu{
+        $left : -81px;
+        margin-left: $left;
+    }
+}

@@ -1,0 +1,52 @@
+@use 'variables' as *;
+
+@mixin headStyle{
+    text-align: $alignCenter;
+    &:hover{
+        filter: $dropShadow;
+    }
+}
+
+@mixin menuMargin{
+    display: $menuBlocking;
+    min-width: $menuMinWidth;
+    color: $policyColor;
+    margin : $menuMargin;
+    text-align: $alignCenter;
+    text-decoration: $menuDecoration;
+    border: $menuBorder;
+    border-radius: $borderRadius;
+    transition: $menuTransition;
+}
+
+@mixin menuStyle {
+    display: $menuDisplaying;
+    padding: $menuPadding;
+    background-color: transparent;
+    justify-content: $alignCenter;
+    width: $menuWidth;
+    margin-left: $menuCenter;
+
+    li{
+        list-style-type: none;
+    }
+
+    a{
+        @include menuMargin;
+        &:hover{
+            background-color:$policyColor;
+            color: #fff;
+            border-color: $policyColor;
+        }
+    }
+
+    &:hover{
+        filter: $dropShadow;
+    }
+}
+
+@mixin activeStyle{
+    background-color:$policyColor;
+    color: #fff;
+    border-color: $policyColor;
+}

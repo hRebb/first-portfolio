@@ -1,0 +1,22 @@
+@use '../utils';
+
+// here the footer code
+footer{
+    @include utils.headStyle;
+    height: 140px;
+    background: radial-gradient(ellipse at top, #c3e5fc, transparent);
+    margin-top: 250px;
+}
+
+.h2_foot{
+    margin-bottom: utils.$footerBottom;
+}
+
+img{
+    height:30px;
+    margin-top: 35px;
+}
+
+.icons{
+    padding-left: 20px;
+}

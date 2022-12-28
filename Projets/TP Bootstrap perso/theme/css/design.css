@@ -1,0 +1,75 @@
+/*--------------------------------------------------------------------------------------*/
+/*                                  © Devcodeone                                        */
+/* Ce fichier ne doit contenir que les attributs concernant les polices et les couleurs */
+/*--------------------------------------------------------------------------------------*/
+
+.toto_exemple {
+    color: #eb4034;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*
+header
+*/
+.titre-head1{
+    color: rgb(134, 171, 52);
+}
+
+.input-button{
+    background-color: goldenrod;
+}
+
+/*
+nav
+*/
+.nav-site, .nav-accueil{
+    color: goldenrod;
+}
+
+
+/*
+première section
+*/
+.nav2{
+    background-color: rgb(244,244,244);
+    text-align: center;
+    color: rgb(164, 193, 134);
+}
+
+
+/* 
+troisième section
+*/
+.section3{
+    background-color: rgb(249,248,247);
+}
+
+
+
+/* 
+Quatrième section 
+*/
+.form_btn{
+    color: white;
+    background-color:green;
+}
+
+/* 
+cinquième section 
+*/
+.section5{
+    background-color: rgb(48, 66, 80);
+    color: rgb(221, 221, 208);
+}
+
+.form_btn2{
+    background-color: orange;
+    color: white;
+}
+
+/*
+footer
+*/
+.annuaire{
+    color: turquoise;
+}

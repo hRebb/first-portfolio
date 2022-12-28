@@ -1,0 +1,223 @@
+/*--------------------------------------------------------------------------------------*/
+/*                                  © Devcodeone                                        */
+/* Ce fichier ne doit contenir que les attributs concernant les overrides bootstrap :    */
+/*                  positionnement, taille ...                                         */
+/*--------------------------------------------------------------------------------------*/
+
+.toto_exemple {
+    height: 500px;
+    width: 600px;
+    position: relative;
+    /* etc ... */
+}
+
+/*
+body
+*/
+
+body{
+    overflow-x: hidden;
+}
+
+/*
+header
+*/
+.header{
+    margin-bottom: 1rem;
+}
+
+.titre-head{
+    margin-top: 4rem;
+}
+
+.titre-head2{
+    font-size: unset;
+}
+
+.formulaire{
+    margin-top: 4rem;
+    text-align: right;
+}
+
+.form_mail{
+    width: 188px;
+    display: inline-flex;
+}
+/* 
+nav
+*/
+
+.nav-site{
+    border-top: 1px solid #def3fd
+}
+
+.nav-accueil{
+    padding-left: 20rem;
+    font-weight: 600;
+}
+
+
+/*
+première section
+*/
+.section1{
+    background-image: url("../img/front-view-fresh-apple-with-dried-apple-on-dark-fruit-ripe-vitamine-tree-mellow-juice-photo-color.jpg");
+    width: 1310px;
+}
+
+.carte_section1{
+    width: 472px;
+}
+
+.nav2{
+    text-align: center;
+}
+
+.titre1{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: goldenrod;
+}
+
+.principal{
+    border: 1px solid goldenrod;
+}
+
+.btn_principal{
+    color: white;
+    background-color: goldenrod;
+    border: goldenrod;
+}
+
+.souligne{
+    text-decoration: underline;
+}
+
+.gras{
+    font-weight: bold;
+}
+
+/* deuxième section
+*/
+.encadre{
+    outline: 1px solid rgba(0, 0, 0, .500);
+    outline-offset: 11px;
+    border-radius: 25px;
+}
+
+/* 
+troisième section 
+*/
+.title_3{
+    background-color: rgb(249,248,247);
+    border: 1px solid goldenrod;
+    width: 27rem;
+    display: inline-block;
+    margin-top: 150px;
+    height: 350px;
+}
+
+.soup{
+    width: 826px;
+}
+
+.titre{
+    border-bottom: 1px solid gray;
+    text-align: center;
+    display: flex;
+    justify-content: center
+}
+.texte{
+    font-size: small;
+    text-align: center;
+}
+
+/*
+quatrième section
+*/
+
+.title_4{
+    text-align: center;
+}
+
+.title_section4{
+    font-weight: bold;
+    text-align: center;
+}
+
+.sec4_column1, .sec4_column2, .sec4_column3{
+    font-size: large;
+}
+
+.icon1, .icon2, .icon3{
+    width: 2.5em;
+    margin-left: 8.5em;
+}
+
+.icon4{
+    margin-left: 2.5em;
+}
+
+.icon5{
+    margin-left: 3.5em;
+}
+
+.form_btn{
+    margin-left: 4em;
+}
+
+/*
+cinquième section
+*/
+
+.boot{
+    width: 250px;
+}
+
+.section5{
+    height: 311px;
+    padding-top: 13px;
+}
+.titre_sect5{
+    font-weight: 395;
+    color: rgb(175, 212, 203)
+}
+
+.coordonnees{
+    display: inline-flex;
+    font-size: small;
+}
+
+.coor_tel{
+    font-size: small;
+    margin: 0 auto;
+    width: 213px;
+    margin-left: 55px;
+}
+
+.reglement{
+    font-weight: 395;
+}
+
+/*
+footer
+*/
+
+.footer{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.reference{
+    width: 220px;
+}
+
+.referencement{
+    width: 329px;
+}
+
+.connexion {
+    width: 399px;
+    text-align: end;
+}

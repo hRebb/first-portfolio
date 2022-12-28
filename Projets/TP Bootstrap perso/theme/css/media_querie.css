@@ -1,0 +1,165 @@
+@media all and (max-width: 1024px) {
+    /* header{ */
+        .boot, .logo_boot{
+            display: none;
+        }
+    /* } */
+    
+    /* nav{ */
+        .nav-accueil{
+            padding-left: 0rem;
+        }
+        .nav-site{
+            display: block;
+        }
+    /* } */
+
+    /* .section1{ */
+        .section1{
+            background-image: none;
+        }
+        .carte_section1{
+            width: 432px;
+        }
+        .first-1, .seconde-1, .fourth-1, .fifth-1{
+            display: none;
+        }
+    /* } */
+
+    /* .section2{ */
+        .encadre {
+            outline: 0px;
+            outline-offset: 0px;
+            border-radius: 0px;
+            font-weight: 100;
+        }
+
+        .fruits, .img_section2, .fruits_img{
+            display: none;
+        }
+
+    /* } */
+
+    /* .section3{ */
+        .section3{
+            margin-left: 0rem;
+            background-color: transparent;
+        }
+
+        .title_3{
+            margin-top: 10px;
+            width: 72rem;
+        }
+    /* } */
+    
+    /* .section4{ */
+        .title_section4{
+            text-align: inherit;
+        }
+        
+        .soup{
+            display: none;
+        }
+
+        .sec4_column2{
+            flex: auto;
+            margin-top: 45px;
+            margin-bottom: 45px;
+        }
+    /* } */
+
+    /* .section5{ */
+        .fleche{
+            display: none;
+        }
+        .partie3{
+        display: none;
+        }
+        .logo{
+            display: none;
+        }
+        .partie2{
+            padding-left: 50px;
+            font-size: small;
+            width: 12rem;
+        }
+        .form_btn2{
+            height: 59px;
+            font-size: smaller;
+        }
+    /* } */
+    /*.footer{ */
+
+        .referencement{
+            display: none;
+        }
+
+        .site{
+            display: none;
+        }
+
+    /* } */
+    }
+
+@media all and (max-width : 1366px){
+
+    /* section 3 */
+
+    .title_3{
+        margin-top: 10px;
+        width: 72rem;
+    }
+
+    .section3{
+        margin-left: 0rem;
+        background-color: transparent;
+    }
+
+    .soup{
+        display: none;
+    }
+
+    /* section 5 */
+    .logo{
+        display: none;
+    }
+
+}
+
+@media(max-width : 1366px) and (min-height : 766px){
+    /* nav */ 
+    .nav-site{
+        display: block;
+    }
+
+    /* section 1 */
+    .section1{
+        background-image: none;
+    }
+
+    .first-1{
+        display: none;
+    }
+
+    /* section 5 */
+    .partie3{
+        display: none;
+    }
+
+    /* footer */
+    .connexion{
+        display: none;
+    }
+}
+
+@media(min-width: 1040px) and (max-width: 1560px ){
+    .nav-barre{
+        flex-direction: column;
+    }
+    .nav-accueil{
+        display: contents;
+    }
+    .fleche{
+        display: none;
+    }
+}

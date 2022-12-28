@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap -->
+        <link href="theme/css/bootstrap.css" rel="stylesheet">
+        <!-- CSS -->
+        <link rel="stylesheet" href="theme/css/style.css">
+        <link rel="stylesheet" href="theme/css/design.css">
+        <link rel="stylesheet" href="theme/css/media_querie.css">
+        <!-- JS -->
+        <script src="theme/js/bootstrap.bundle.js"></script>
+        <script src="theme/js/bootstrap.min.js"></script>
+        <script src="theme/js/jquery.js"></script>
+        <title>TP Bootstrap</title>
+    </head>
+
+    <body class="container-fluid">
+        <!-- Header -->
+        <header class="header">
+            <div class="container-xl">
+                <div class="row">
+                    <div class="col logo_boot">
+                        <img src="theme/img/bootstrap.png" class="boot" alt="">
+                    </div>
+                    <div class="col titre-head">
+                        <h1 class="titre-head1">Diane Bassan</h1>
+                        <h4 class="titre-head2">Diététicienne nutritionniste Montpellier</h4>
+                    </div>
+                    <div class="col"></div>
+                    <div class="col formulaire">
+                        <p>Vous souhaitez être informé des futurs événements ? Inscrivez-vous !</p>
+                        <div class="input-group form_mail">
+                            <input type="text" class="form-control" id="uname" placeholder="Votre email" name="uname" required aria-label="Username" aria-describedby="basic-addon1">
+                            <span class="input-group-text input-button" id="basic-addon1">
+                                <img src="theme/img/telegram-g5d4d227ed_640.png" alt="" style=" width: 2rem;">
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Barre nav -->
+        <nav class="navigation">
+            <nav class="navbar justify-content-center navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid nav-barre">
+                    <a class="nav-link active nav-accueil" href="#">Accueil</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="nav justify-content-center nav-site">
+                            <li class="nav-item">
+                                <a class="nav-link nav-site" href="#">Parcours</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav-site" href="#">Consultations et Tarifs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav-site" href="#">Les soins</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle nav-site" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Autres prestations
+                                </a>
+                                <ul class="dropdown nav-site" aria-labelledby="navbarDropdownMenuLink"></ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav-site" href="#">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav-site" href="#">Partenariat Recettes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav-site" href="#">Liens</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav-site" href="#">Avis</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav-site" href="#">Témoignages</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav-site" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </nav>
+        <!-- Première section -->
+        <section>
+            <div class="container">
+                <div class="row section1">
+                    <div class="col first-1"></div>
+                    <div class="col seconde-1"></div>
+                    <div class="col third-1">
+                        <br> <div class="card carte_section1">
+                            <div class="card-body transparence">
+                                <div class="card">
+                                    <div class="card-body principal">
+                                        <h3 class="card-title titre1">Prendre rendez-vous</h3>
+                                        <p class="texte">
+                                            LE SCRIBE
+                                            160 Avenue de Fès
+                                            <br>
+                                            BAT B, 1er étage
+                                            34080 Montpellier <br>
+                                        </p>
+                                        <div class="col text-center">
+                                            <button type="button" class="btn btn_principal">Prendre un rendez-vous</button>
+                                        </div> <br> 
+                                        <p class="texte">
+                                            Bonne nouvelle de la rentrée, 
+                                            <span class="souligne gras">
+                                                grâce à l'arrivée de Laurie Miranda,
+                                            </span>
+                                            diététicienne nutritionniste, nous pouvons désormais vous proposer des rendez-vous du
+                                        </p>
+                                        <p class="texte souligne gras">LUNDI au VENDREDI de 9h à 19h NON STOP  et le SAMEDI de 9h à 13h</p>
+                                        <p class="texte gras">Possibilité de consulté en cabinet ou en visio</p>
+                                        <p class="texte gras">
+                                            Dès le RDV pris, je vous enverrai un mail pour vous transmettre la
+                                            marche à suivre. Pour les rendez-vous en cabinet, merci de consulter et
+                                            de respecter les mesures sanitaires
+                                        </p>
+                                        <img src="theme/img/telephone.png" style="margin-left: 2.5em;"> &emsp; 06 &nbsp; 20&nbsp; 12 &nbsp; 94 &nbsp; 10<br>
+                                        <img src="theme/img/appel-telephonique.png" style="margin-left: 2.5em;"> &emsp; 06 &nbsp; 31&nbsp; 92&nbsp; 14 &nbsp; 05 <br><br>
+                                        <br>
+                                        <div class="col text-center">
+                                            <button class="btn btn_principal">Consulter les mesures sanitaires</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> <br>
+                    </div>
+                    <div class="col fourth-1"></div>
+                    <div class="col fifth-1"></div>
+                </div>
+                <div class="card nav2">
+                    <div class="card-body accueil">
+                        Accueil
+                    </div>
+                </div>
+            </div>
+        </section> <br>
+
+        <!-- Deuxième section -->
+        <section class="row justify-content-center margin_row">
+            <div class="col-12 col-lg-11 col-xl-10 col-xxl-8 row flex-column-reverse flex-lg-row p-0 outlin-border">
+                <div class="col-12 col-lg-6 p-5 d-flex flex-column justify-content-center encadre">
+                    <h3 class="card-title text-center padding_tb10 titre">Bienvenue sur le site de Diane Bassan, Diététicienne Nutritionniste Montpellier.</h3>
+                    <!-- <div class="dropdown-divider"></div> -->
+                    <p class="card-text text-center text_xs texte">
+                        Depuis 6 ans, Diane Boisson exerce le métier de Diététicienne Nutritionniste. Bilan diététique. Mise en
+                        place d'un programme personnalisé et suivi dans son cabinet à Montpellier, à domicile ou  en ligne par webcam.
+                        Votre thérapeute vous propose des séances sur rendez-vous pour enfants, adolescents, adultes, sportifs,
+                        personnes âgées et à tous types de patients, adressés ou non par le médecin
+                    </p>
+                </div>
+                <div class="col-12 col-lg-6 p-0 text-center background-black">
+                    <img src="theme/img/top-view-food-frame-with-copy-space .jpg" class="img-fluid fruits">
+                </div>
+            </div>
+        </section> <br> <br>
+
+        <!-- Troisième section -->
+        <section>
+            <div class="container">
+                <div class="row section3">
+                    <div class="col-8">
+                        <img src="theme/img/top-view-fresh-tomato-soup-wooden-spoon.jpg" class="soup" alt="">   
+                    </div>
+                    <div class="col-4 card title_3">
+                        <div class="card-body">
+                            <h5 class="card-title titre">Pourquoi rencontrer une diététicienne nutritionniste ?</h5>
+                            <p class="card-text texte">Les raisons peuvent être multiple. Voici quelques exemples : <br>
+                                déséquilibre alimentaire, prévention de l'obésité infantile, programme et suivi des sportifs,
+                                grossesses (carences nutritionnelles, surpoids, reflux gastro-aesophagien, constipation, diabète
+                                gestationnel, hypertension arterielle...), ménopause, régime végétarien, gériatrie, obésité/surpoids,
+                                maladies cardiaques, hypercholestérolémie et hypertriglycéridémie, diabète, dénutrition, gastro-entérologie,
+                                chirurgie de l'obésité nephrologie, diététique adaptée en lien avec une prise médicamenteuse, intolérance
+                                et allérgies alimentaires etc...
+                            
+                            </p>
+                            <br>
+                            <div class="col text-center">
+                                <button class="btn btn-success btn_card">En savoir plus</button>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            <br>
+        </section>
+
+        <br>
+        <br>
+        <br>
+
+        <!-- Quatrième section -->
+        <section class="col-12 section4">
+            <h3 class="title_4">Le cabinet nutritionniste</h3>
+            <br>
+            <div class="container">
+                <div class="row align-items-start">
+                    <div class="col sec4_column1">
+                        <img src="theme/img/viber.png" class="icon1" alt="">
+                        <h4 class="title_section4">Prendre rendez-vous</h4>
+                        <p>Diane Boisson, Diététicienne nutritionniste <br>
+                        à Montpellier, vous accueille pour des séances <br>
+                        sur rendez-vous du lundi au vendredi.
+                        </p>
+                        <p>Merci d'appeler avant tout déplacement :</p> <br>
+                        <img src="theme/img/telephone.png" style="margin-left: 2.5em;"> &emsp; 06 &nbsp; 20&nbsp; 12 &nbsp; 94 &nbsp; 10<br>
+                        <img src="theme/img/appel-telephonique.png" style="margin-left: 2.5em;"> &emsp; 06 &nbsp; 31&nbsp; 92&nbsp; 14 &nbsp; 05 <br><br>
+                        <button type="button" class="btn btn-success form_btn">Formulaire de contact</button>
+                    </div> <br>
+                    <div class="col sec4_column2">
+                        <img src="theme/img/location-pin.png" class="icon2" alt="">
+                        <h4 class="title_section4">Accéder au cabinet <br> à Montpellier</h4>
+                        <p>Le cabinet est facilement accessible depuis <br>
+                        Montpellier, Castelnau-le-lez, Clapiers, <br>
+                        Saint-Jean-de-Vedas, Juvignac, Le Crès, <br>
+                        Saint-Georges d'Orques, &emsp;&emsp;&emsp; Grabels, <br>
+                        Vendargues
+                        </p>
+
+                        <img src="theme/img/travailler-a-la-maison.png" class="icon4" alt=""> &nbsp; Cabinet de Montpellier <br>
+                        <img src="theme/img/localisation.png" class="icon5" alt="">&emsp;&emsp; LE SCRIBE <br>
+                        &emsp;&emsp;&emsp;&emsp; 160 Avenue de Fès <br>
+                        &emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;  34080 Montpellier <br>
+                        &emsp;&emsp;&emsp;&emsp;&emsp; BAT B, 1er étage <br>
+                    </div> <br>
+                    <div class="col sec4_column3">
+                        <img src="theme/img/information-logotype-in-a-circle.png" class="icon3" alt="">
+                        <h4 class="title_section4">A savoir</h4>
+                        <p>
+                            <li>Consultation possible en anglais <br> et langage des signes </li>
+                            <li>Consultation diététique à domicile, au <br> cabinet ou en ligne par webcam.</li>
+                            <li>Autres prestations : </li>
+                            <p>- &nbsp; Elaboration de menus diététique <br> (particulier et professionel)
+                            <br>- &nbsp; Accompagnement aux courses <br> (marchés et supermarchés)
+                            <br>- &nbsp; Consulting aux entreprises
+                            <br>- &nbsp; Cours de cuisine à domicile
+                            </p>
+                        </p>
+                    </div>
+                </div>
+</section> <br>
+
+        <!-- Cinquième section -->
+        <section class="row section5">
+            <div class="col-2 logo">
+                <img src="theme/img/bootstrap.png" class="boot" alt="">
+            </div>
+            <div class="col-3 partie1">
+                <h3 class="titre_sect5">Navigation</h3> <br>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a> > Accueil</a> <br>
+                        <a> > Votre Diététicienne Nutritionniste</a> <br>
+                        <a> > La séance</a> <br>
+                        <a> > Les soins</a> <br>
+                        <a> > Témoignages</a> <br>
+                        <a> > Contact</a> <br>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-2 partie2">
+                <h3 class="titre_sect5">Horaires</h3> <br>
+                <p>Du <strong>Lundi</strong> au <strong>Vendredi</strong> de <strong>9H</strong> 
+                à <strong>19H</strong>
+                </p>
+                <p>
+                    Le <strong>Samedi</strong> de <strong>9H</strong> à <strong>13H</strong> 
+                </p>
+                <button type="button" class="btn form_btn2">Prendre un rendez-vous</button>
+                <p>Plan du site</p>
+            </div>
+            <div class="col-3 partie3">
+                <h3 class="titre_sect5">Coordonées</h3>
+                <img src="theme/img/localisation.png" class="icon5" alt="">
+                        <div class="coordonnees">LE SCRIBE
+                            <br> 160 Avenue de Fès
+                            <br> 34080 Montpellier
+                            <br> BAT B, 1er étage <br>
+                        </div>
+                        <p class="coor_tel">
+                            <img src="theme/img/telephone.png" >&nbsp; 06 &nbsp;20&nbsp; 12 &nbsp; 94 &nbsp; 10 <br>
+                            <img src="theme/img/appel-telephonique.png" > &nbsp;06 &nbsp; 31&nbsp; 92&nbsp; 14 &nbsp; 05 <br>
+                        </p>
+                        <div class="coordonnees titre_sect5">
+                            <h4 class="reglement">Mode de reglements</h4>
+                        </div> <br>
+                            <div>
+                                <img src="theme/img/bills.png" alt="">
+                            &emsp13; &emsp13; &emsp13; &emsp13; &emsp13; &emsp13; &emsp13; &emsp13; &emsp13; &emsp13;
+                            <img src="theme/img/cheque.png" alt="">
+                            &emsp13; &emsp13; &emsp13;
+                            <img src="theme/img/facebook.png" alt="">
+                            <img src="theme/img/google.png" alt=""> <br>
+                            Espèces
+                            &emsp13; &emsp13; &emsp13; &emsp13; &emsp13; &emsp13; &emsp13; &emsp13; &emsp13; &emsp13;
+                            Chèques
+                            </div> 
+            </div>
+            <br> <br>
+        </section>
+        <br>
+        <footer class="container-fluid footer">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                <div class="col reference">
+                    <a href="ref.html">Références</a>
+                </div>
+                <div class="col referencement">
+                    <a href="">
+                        Réalisation & référencement
+                    </a>
+                    &nbsp;
+                    <img src="theme/img/html5.png" alt="">
+                    <img src="theme/img/css-3.png" alt="">
+                    &nbsp;
+                    |
+                    &nbsp;
+                </div>
+                <div class="col site">
+                    Site référencé sur <span class="annuaire">Annuaire-santé-bien-être.fr</span>
+                </div>
+                <div class="col connexion">
+                    <a href="#">Connexion</a>
+                </div>
+                <div class="col connexion">
+                    <button type="button" class="btn btn-dark fleche" href="#">↑</button>
+                </div>
+            </div>
+        </footer>
+    </body>
+
+</html>

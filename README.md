@@ -12,18 +12,3 @@
 
 > I will create few folders for my graphics, if i have themes, database projects and plans
 
-- In this list : frameworks, prepocessor or library i will be working with or at least i should see if i will integrate in my project.
-  
-- In italic -> i'm not sure i will be working with them but i will go check the documentation for sure
-
->> Sass
->
->> TypeScript 
->
->> *Bootstrap*
->
->> Materialize
->
->> PostCSS
-
-
